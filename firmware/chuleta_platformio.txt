@@ -1,0 +1,5 @@
+
+
+platformio init -b sparkfun_promicro16
+platformio run -t upload
+platformio device monitor -b 115200
